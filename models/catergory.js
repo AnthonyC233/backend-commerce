@@ -1,5 +1,4 @@
 const { Model, Datatypes, INTEGER } = require('sequelize');
-
 const sequelize = require('../config/connection.js');
 
 Category.init(
