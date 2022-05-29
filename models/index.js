@@ -17,7 +17,7 @@ Category.hasMany(Product, {
 
 // Act 23, These products belong to many Tags
 Product.belongsToMany(Tag, {
-  throuh: ProductTag,
+  through: ProductTag,
   foreignKey: 'product_id',
 });
 
