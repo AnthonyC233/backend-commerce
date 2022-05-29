@@ -7,7 +7,7 @@ class Product extends Model {}
 Product.init(
     {
     id: {
-        type: DataTypes.INTEGER,
+        type: Datatypes.INTEGER,
         allowNull: false,
         primaryKey: true,
         autoIncrement: true,
